@@ -1,3 +1,7 @@
+#I made new main in order to clear some parts which because of lots of errors didn't work.
+#I think it was some syntax srrors and some changes in version of some dependencies which no longer get supports. 
+# The main part cleared is functions needed to write results on a .csv file
+
 import sys
 import time
 import os
