@@ -166,7 +166,7 @@ def discretizeFluorescenceSignal(F):
         if(debug):                          
             print('Global bin edges set at: ');                            
             for j in range(len(binEdges)):                            
-                print "%.2f" %( binEdges[j])                            
+                print ("%.2f" %( binEdges[j]))
                                         
     #print F                               
     #print D.T

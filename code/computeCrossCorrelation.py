@@ -59,7 +59,7 @@ def computeCrossCorrelation(F,debug):
             #print (arr[i][2])
             Matrix[int(arr[i][0])][int(arr[i][1])] = arr[i][2]
     #print Matrix
-    print '*****************************************'
+    print ('*****************************************')
     #print np.array(Matrix)  
     #return np.array(Matrix)
     #return Matrix

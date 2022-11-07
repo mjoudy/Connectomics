@@ -28,7 +28,7 @@ def readNetworkScores(filename):
         l.append(map(int, line.split(',')))
      l1 = loadtxt(filename,delimiter=",")    
    #% Keep only 0/1 weights, ignore blocked connections
-    Matrix = [[0 for x in xrange(int(l1.max()))] for x in xrange(int(l1.max()))]
+    Matrix = [[0 for x in range(int(l1.max()))] for x in range(int(l1.max()))]
 
     for i in range(0,len(l1)-1):
         if l1[i][2] > 0:
